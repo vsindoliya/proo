@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const Product = require('');
+const Product = require('index.html');
 
 const products = [
 
