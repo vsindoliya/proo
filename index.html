@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great Quotes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav>
+        <div class="left-nav">
+            <h2>Great Quotes</h2>
+        </div>
+        <div class="right-nav">
+            <ul>
+                <li><a href="#" id="all-quotes">All Quotes</a></li>
+                <li><a href="#" id="new-quote">New Quote</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <h1>All Quotes</h1>
+        <div id="quote-list">
+            
+        </div>
+        <div id="quote-form" style="display: none;">
+            <h2>Add New Quote</h2>
+            <form>
+                <label for="author">Author:</label>
+                <input type="text" id="author" required>
+                <br>
+                <br>
+                <label for="quote">Quote:</label>
+                <textarea id="quote" rows="3" required></textarea>
+                <br>
+                <br>
+                <button type="submit">Add Quote</button>
+            </form>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
